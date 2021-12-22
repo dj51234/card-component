@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;700&family=Outfit:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0d192c;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  max-width: 350px;
+  background-color: #15263f;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+h2 {
+  margin: 25px 0;
+}
+
+h2 a {
+  color: #fff;
+  transition: 0.2s ease;
+}
+
+h2 a:hover {
+  color: #00fff8;
+}
+
+img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+p {
+  color: #8bacd9;
+  font-size: 18px;
+}
+
+strong {
+  color: #00fff8;
+}
+
+.img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.overlay {
+  opacity: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #00fff770;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.number {
+  display: flex;
+  padding: 25px 0;
+}
+
+.number p {
+  margin-left: 10px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #2e405a;
+  padding: 25px 0 0;
+}
+
+.avatar {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-right: 10px;
+}
+
+.avatar img {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+}
+
+.user a {
+  color: #f0f2f3;
+  transition: 0.2s ease;
+}
+
+.user a:hover {
+  color: #00fff8;
+}
